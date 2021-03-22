@@ -1,0 +1,89 @@
+form {
+    width: 481px;
+    height: 392px;
+    margin: 0 auto;
+    background: #f7f5f9;
+    border-radius: 12px;
+    position: relative;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+button {
+    background: #6979f8;
+    border-radius: 6px;
+    width: 401px;
+    height: 48px;
+    position: absolute;
+    top: 304px;
+    right: 40px;
+    left: 40px;
+    bottom: 40px ;
+}
+
+.button_text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+input {
+    width: 384px;
+    height: 48px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: none;
+    font-family: "SF Pro Text";
+    padding-left: 15px;
+    font-size: 15px;
+    line-height: 20px;
+
+}
+
+input:focus{
+    border: 1px solid #d0c9d6;
+    outline: none;
+    
+    }
+
+.email_form {
+    position: absolute;
+    top: 231px;
+    right: 40px;
+    left: 40px;
+    bottom: 113px ;
+}
+
+.phone__form {
+    position: absolute;
+    top: 158px;
+    right: 40px;
+    left: 40px;
+    bottom: 186px ; 
+}
+
+.nameLastname__form {
+    position: absolute;
+    top: 85px;
+    right: 40px;
+    left: 40px;
+    bottom: 259px ; 
+}
+
+input::-moz-placeholder { 
+    color: #d0c9d6; 
+}

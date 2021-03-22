@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>DS Academy</title>
+</head>
+<body>
+    <form class="modal" method="post" action="https://60376bfd5435040017722533.mockapi.io/form" onsubmit="return (ValidName()&&ValidPhone()&&ValidMail())")>
+        <p class="title__form">Задать вопрос</p>
+        <input  type="text" name="name" Id="name__form__question" class = "nameLastname__form" placeholder="Фамилия Имя Отчество *">
+        <input  type="tel" name="phone" Id="phone__form__question" class = "phone__form" placeholder="Телефон *">
+        <input  type="text" name="email" Id ="email__form__question" class = "email_form" placeholder="Email"> 
+        <button type="submit" class="submit"> 
+            <h1 class="button_text">отправить запрос</h1> 
+        </button>
+    </form>
+</body>
+</html>
